@@ -10,5 +10,6 @@
         <property name="format_sql">false</property>
         <property name="use.sql_comments">true</property>
         <mapping class="com.sda.entity.Dog"/>
+        <mapping class="com.sda.entity.Employee"/>
     </session-factory>
 </hibernate-configuration>
