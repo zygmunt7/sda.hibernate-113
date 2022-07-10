@@ -17,7 +17,7 @@ public class Wife {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String name;
-    @OneToOne
+    @OneToOne(mappedBy = "wife")
     Husband husband;
 
     public Wife(String name) {
