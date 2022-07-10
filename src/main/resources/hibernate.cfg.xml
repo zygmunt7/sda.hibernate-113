@@ -18,6 +18,8 @@
         <mapping class="com.sda.entity.Wife"/>
         <mapping class="com.sda.entity.Client"/>
         <mapping class="com.sda.entity.Book"/>
+        <mapping class="com.sda.entity.School"/>
+        <mapping class="com.sda.entity.Student"/>
 
     </session-factory>
 </hibernate-configuration>
