@@ -12,5 +12,6 @@
         <mapping class="com.sda.entity.Dog"/>
         <mapping class="com.sda.entity.Employee"/>
         <mapping class="com.sda.entity.Cat"/>
+        <mapping class="com.sda.entity.Bird"/>
     </session-factory>
 </hibernate-configuration>
