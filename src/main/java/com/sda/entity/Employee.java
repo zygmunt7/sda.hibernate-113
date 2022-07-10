@@ -31,6 +31,8 @@ public class Employee {
     Gender gender;
     @Lob
     String description;
+    @Embedded
+    Address address;
 
     public Employee(String name, String secret, String telephoneNumber, Long age, Date birtDate, Gender gender, String description) {
         this.name = name;
