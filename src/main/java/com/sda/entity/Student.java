@@ -1,6 +1,8 @@
 package com.sda.entity;
 
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -9,8 +11,9 @@ import java.util.Set;
 @Entity
 @Table(name = "student")
 @NoArgsConstructor
+@Getter
+@ToString
 public class Student {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
